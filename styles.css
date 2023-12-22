@@ -1,0 +1,58 @@
+body {
+    margin: 10px; /* Add margin to the body for overall spacing */
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: red;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px; /* Add margin to the bottom of the header */
+}
+
+nav {
+    background-color: gray;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px; /* Add margin to the bottom of the navigation */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-content {
+    width: 40;
+    padding: 20px;
+    background-color: green;
+    margin-right: 10px; /* Add margin to the right of the left content */
+    text-align: center;
+    }
+
+.right-content {
+    width: 60;
+    padding: 20px;
+    background-color: yellow;
+    text-align: center;
+}
+
+footer {
+    background-color: blue;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px; /* Add margin to the top of the footer */
+}
